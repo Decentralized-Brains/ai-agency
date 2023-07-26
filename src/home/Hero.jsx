@@ -3,7 +3,7 @@ import videoThumb from "../assets/video_thumb.png";
 const Hero = () => {
   return (
     <>
-      <div className="hero_bg">
+      <div className="hero_bg h-full lg:h-[800px]">
         <div className="container">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-black pt-28 md:pt-36 text-center text-white tracking-wider ">
             Revolutionizing Domestic <br /> Agencies with AI-Driven <br />{" "}
@@ -14,9 +14,10 @@ const Hero = () => {
             solutions, <br /> optimising the way your domestic agency operates.
           </p>
         </div>
-      </div>
-      <div className="container absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center">
-        <img src={videoThumb} alt="" />
+
+        <div className="py-5 mt-5 md:mt-32  flex justify-center">
+          <img src={videoThumb} alt="" />
+        </div>
       </div>
     </>
   );
