@@ -31,3 +31,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.bg-faq {
+  background: url(./assets/bg_img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
