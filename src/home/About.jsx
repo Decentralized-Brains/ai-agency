@@ -4,7 +4,7 @@ import { ImArrowUpRight2 } from "react-icons/im";
 const About = () => {
   return (
     <div className=" bg-[#9741D604] ">
-      <div className="container pb-20 lg:pb-0 pt-20 lg:pt-80">
+      <div className="container pb-20 lg:pb-0 pt-20 lg:pt-[20rem] xl:pt-[35rem]">
         <div className="flex flex-col md:flex-row  gap-5 justify-center items-center">
           <div className=" md:w-1/2">
             <img src={About_us_img} alt="" className="mx-auto" />

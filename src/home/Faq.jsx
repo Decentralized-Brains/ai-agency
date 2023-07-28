@@ -33,7 +33,7 @@ const Faq = () => {
       {faqItems.map((item, index) => (
         <div
           key={index}
-          className={`mb-4 p-4 max-w-4xl mx-auto border border-[#9741D6] rounded-md ${
+          className={`mb-4 p-4 max-w-6xl mx-auto border border-[#9741D6] rounded-md ${
             index === activeIndex
               ? " bg-gradient-to-b from-purple-500 to-purple-300 bg-faq"
               : ""

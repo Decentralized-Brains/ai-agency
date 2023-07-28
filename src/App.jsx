@@ -4,6 +4,7 @@ import About from "./home/About";
 import KnowMore from "./home/KnowMore";
 import Faq from "./home/Faq";
 import Team from "./home/Team";
+import Footer from "./global/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <KnowMore />
       <Faq />
       <Team />
+      <Footer />
     </>
   );
 }

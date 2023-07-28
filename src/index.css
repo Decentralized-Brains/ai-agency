@@ -33,8 +33,24 @@ body {
 }
 
 .bg-faq {
-  background: url(./assets/bg_img.png);
+  background: url(./assets/faq_bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.footer_bg {
+  background: url(./assets/footer_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Global CSS or your component's CSS file */
+
+/* Style for the modal background */
+
+/* Additional styling for the iframe (optional) */
+iframe {
+  border: none;
 }
